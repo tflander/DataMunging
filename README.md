@@ -1,6 +1,7 @@
-Scala Testing
+Data Munging
 ===============
 
-A sample application demonstrating unit testing with various frameworks: ScalaTest, Specs2, Scalacheck, JUnit, and TestNG.
+From http://codekata.com/kata/kata04-data-munging/
 
-This template is a companion to the <a href="https://www.youtube.com/watch?v=W9yMkao_AZg">Scala Testing video</a> on the <a href="https://www.youtube.com/user/typesafehub">Typesafe YouTube channel</a>. You can find the slides from the video in the "presentation" directory of the project.
+Part One: Weather Data
+In weather.dat you’ll find daily weather data for Morristown, NJ for June 2002. Download this text file, then write a program to output the day number (column one) with the smallest temperature spread (the maximum temperature is the second column, the minimum the third column).
