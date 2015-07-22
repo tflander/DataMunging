@@ -28,7 +28,7 @@ class DataMungingTest extends FunSpec with ShouldMatchers {
     it("should find the least change in temperature") {
       val temperatures = MungerParser.readData("weather.dat")
       val leastChange = TemperatureHelper.findDayWithLeastTemperatureSpread(temperatures)
-      leastChange should be (TemperatureData(14,61,59))
+      leastChange should be (TemperatureData(day=14, maxTemp=61, minTemp=59))
     }
   }
 
